@@ -1,5 +1,5 @@
 <template>
-  <swiper>
+  <swiper class="home-swiper">
     <swiper-item v-for="(item, index) in banner.list" :key="index">
       <a :href="item.link">
         <img :src="item.image" alt="">
@@ -29,5 +29,4 @@
 </script>
 
 <style scoped>
-
 </style>
